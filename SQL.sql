@@ -27,7 +27,7 @@ CREATE TABLE `Post` (
   `Testo` longtext COLLATE utf8_bin NOT NULL,
   `Visualizzazioni` int(11) NOT NULL DEFAULT '0',
   `NCommenti` int(11) NOT NULL DEFAULT '0',
-  `Commenti` varchar(1000) COLLATE utf8_bin NOT NULL DEFAULT '{}' COMMENT 'JSON',
+  `Commenti` varchar(1000) COLLATE utf8_bin NOT NULL DEFAULT '[]' COMMENT 'JSON',
   `MiPiace` int(11) NOT NULL DEFAULT '0',
   `Descrizione` varchar(50) COLLATE utf8_bin NOT NULL,
   `LongDesc` varchar(560) COLLATE utf8_bin NOT NULL,
